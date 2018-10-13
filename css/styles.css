@@ -1,0 +1,203 @@
+
+* {
+    box-sizing: border-box;
+}
+.header .f-w-logo {
+    font-family: 'Charmonman', cursive;
+    color: rgb(241, 146, 151)
+}
+.header .s-w-logo {
+    font-family: 'Charmonman', cursive;
+    color: #9fc7e9
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(156,156,155);
+    
+}
+
+
+.active a{
+    color: rgb(88,11,17)!important;
+}
+.navbar-nav a {
+    font-weight: bolder
+}
+.navbar-nav a:hover {
+    color:#771D22!important;
+    transition:.8s ;
+}
+.img-parag {
+    
+    top: 50%;
+    left: 40%;
+    color: red
+}
+/* Start styling Read More Button*/
+.header .btn-link {
+    position: absolute;
+    top:70%;
+    left: 42%;
+    text-decoration:none;
+    background-color: #771D22;
+    border-radius: 50px;
+    color: rgb(156,156,155);
+    font-weight: bolder;
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+    border: 1px solid #771D22
+}
+/* End styling Read More Button*/
+.header button:hover {
+    background-color: transparent;
+    transition: .8s;
+}
+
+/*Start Section*/
+/* Start about us*/
+.about-us img {
+    width: 100% ;
+    margin-bottom: 30px
+}
+.about-us > h2, .ourservices  h2 {
+    color: #771D22
+}
+.about-us h2 {
+    font-size: 45px;
+    margin: 50px 0;
+    letter-spacing: .3em;
+    font-weight: bolder
+}
+.about-us p {
+    font-size: 18px;
+    line-height: 1.5em;
+    font-size:18px;
+    color: rgb(156,156,155);
+}
+.about-us i:hover{
+    color: #771D22;
+}
+.icon-left {
+    float: left;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-right: 1.5em;
+    border-radius: 50%;
+    padding: 1.2em 0px 0px;
+}
+/* End about us*/
+
+/* Start Our Services*/
+.our-services-container {
+    padding: 30px;
+    margin: 4em 0;
+}
+.services-grid {
+    margin-top: 4em;
+   
+}
+.ourservices h2 {
+    font-size: 30px;
+    letter-spacing: .3em;
+    font-weight: bolder
+}
+.services-grid h3:hover{
+    color: #942121;
+    cursor: pointer;
+}
+.services-grid  p {
+    color: rgb(156,156,155)
+}
+.services-grid .services-item {
+    height: 300px;
+    background-color:#FFF;
+    box-shadow: 3px 5px #888888;
+    border: 1px rgb(66, 64, 64)
+}
+.services-grid .services-item:hover {
+    height: 300px;
+    background-color:#FFF;
+    box-shadow: 3px 5px #942121;
+    border: 2px solid #942121;
+    transition: .5s
+}
+.services-item-content {
+    margin-top: 115px ;
+}
+/* End Our Services*/
+
+/* Start Trainers*/
+.trianers {
+    margin: 30px 0
+}
+.trianers h2 {
+    margin-bottom: 60px;
+    color: #771D22;
+    letter-spacing: .3em;
+    font-weight: bolder
+}
+.trianers img {
+    width: 100%;
+    height: 100%
+}
+/* End Trainers*/
+
+/* Start Contact us*/
+.contact h2 {
+    margin: 60px 0;
+    color: #771D22;
+    letter-spacing: .3em;
+    font-weight: bolder
+
+}
+.contact #map {
+    font-size: 50px;
+    margin-bottom: 100px
+}
+.contact label {
+    font-weight: bold
+}
+/* End Contact us*/
+
+
+/*End Section*/
+
+
+/* Start styling footer*/
+footer {
+    background-color: #212121;
+    color: rgb(156,156,155);
+    padding: 30px;
+    margin-top: 50px
+}
+footer h4 {
+    color: #771D22
+}
+.footer address span {
+    line-height: 30px
+}
+footer a  i:hover{
+    color: #771D22;
+    transition: 0.8s
+}
+
+.footer img {
+    width: 5%;
+    height: 5%
+}
+.footer a {
+    text-decoration: none;
+    color:rgb(156,156,155)
+}
+.footer a:hover {
+    color: #771D22;
+    transition: 0.8s
+}
+footer .rights {
+    color: #771D22;
+    margin-top: 50px
+}
+/*End Styling footer*/
+
